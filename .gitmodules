@@ -1,3 +1,6 @@
 [submodule "miniapp-micro-submodule1"]
 	path = miniapp-micro-submodule1
 	url = https://github.com/shiminghua/miniapp-micro-submodule1.git
+[submodule "miniapp-micro-taro"]
+	path = miniapp-micro-taro
+	url = https://github.com/shiminghua/miniapp-micro-taro.git
