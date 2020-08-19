@@ -7,6 +7,8 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
+  <button bindtap="gotoSubmodule1"> 跳转普通子模块页面 </button>
+  <button bindtap="gotoTaro"> 跳转taro子模块页面 </button>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>

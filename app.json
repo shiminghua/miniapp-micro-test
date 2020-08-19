@@ -3,6 +3,21 @@
     "pages/index/index",
     "pages/logs/logs"
   ],
+  "subpackages": [
+    {
+      "root": "miniapp-micro-submodule1",
+      "pages": [
+        "pages/index/index"
+      ]
+    },
+    {
+      "root": "miniapp-micro-taro",
+      "pages": [
+        "dist/pages/index/index"
+      ],
+      "independent": true
+    }
+  ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
